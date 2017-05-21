@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-} from 'react-native';
+import { AppRegistry } from 'react-native';
+import App from './src/App';
 
-export default class tunghi extends Component {
-  render() {
-    return (
-      <App />
-    );
-  }
-}
-
-AppRegistry.registerComponent('tunghi', () => tunghi);
+AppRegistry.registerComponent('tunghi', () => App);
