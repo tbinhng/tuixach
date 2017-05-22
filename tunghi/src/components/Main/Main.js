@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Text, View, TouchableOpacity } from "react-native";
+import React, { Component } from 'react';
+import { Text, View, TouchableOpacity } from 'react-native';
 
 class Main extends Component {
   gotoAuthentication() {
-    this.props.navigation.navigate("MH_AUTHENTICATION");
+    this.props.navigation.navigate('MH_AUTHENTICATION');
   }
   render() {
     return (
-      <View style={{ flex: 1, backgroundColor: "yellow" }}>
+      <View style={{ flex: 1, backgroundColor: 'yellow' }}>
         <TouchableOpacity
           onPress={() => { this.gotoAuthentication(); }}
         >
-          <Text> Go TO Main</Text>
+          <Text> Go TO Authentication</Text>
         </TouchableOpacity>
       </View>
     );
